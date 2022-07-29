@@ -5,6 +5,7 @@ body {
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    gap: 72px;
 }
 header {
     background-color: #1f2937;
@@ -14,6 +15,11 @@ header {
     padding-bottom: 8%;
 }
 
+header img{
+    width: 350px;
+    height: auto;
+    margin-top: auto;
+}
 
 logo{
     font-size: 24px;
@@ -24,18 +30,13 @@ logo{
     font-size: 18px;
     color: #e5e7eb;
     list-style: none;
+    margin: 0;
 }
 
 #main-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-}
-
-#header-image {
-width: 100%;
-height: 30%;
-margin-top: auto;
 }
 
 #second-column {
@@ -74,7 +75,6 @@ button {
 .info {
     font-size: 36px;
     font-weight: bolder;
-    margin-top: 72px;
 }
 
 .cards {
@@ -128,4 +128,38 @@ button {
     margin-top: 0;
     margin-right: 40px;
     font-weight: bold;
+}
+
+#signup {
+    width: 60%;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 70px;
+    border: 1px;
+    border-radius: 8px
+}
+
+.signup-button {
+    border: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px 20px;
+    flex: none
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1f2937;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
 }
